@@ -9,6 +9,10 @@ const config = {
   ],
   theme: {
     extend: {
+      colors: {
+        brezee_primary: '#D98324',
+        background_color: '#EFDCAB'
+      },
       fontFamily: {
         sans: ["var(--font-sans)"],
         mono: ["var(--font-mono)"],
