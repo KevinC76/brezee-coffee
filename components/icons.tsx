@@ -1,6 +1,6 @@
-import * as React from "react";
+import * as React from 'react';
 
-import { IconSvgProps } from "@/types";
+import { IconSvgProps } from '@/types';
 
 export const Logo: React.FC<IconSvgProps> = ({
   size = 36,
@@ -182,6 +182,40 @@ export const SearchIcon = (props: IconSvgProps) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth="2"
+    />
+  </svg>
+);
+
+export const MailIcon = (props: IconSvgProps) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    strokeWidth={1.5}
+    stroke="currentColor"
+    className="size-6"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+    />
+  </svg>
+);
+
+export const SendIcon = (props: IconSvgProps) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    strokeWidth={1.5}
+    stroke="currentColor"
+    className="size-6"
+  >
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5"
     />
   </svg>
 );

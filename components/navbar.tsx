@@ -35,9 +35,7 @@ export const Navbar = () => {
               src="/brezeeLogo.png"
               alt="brezee coffee logo"
             />
-            <p className="font-bold text-inherit text-brezee_primary">
-              Brezee Coffee
-            </p>
+            <p className="font-bold  text-brezee_primary">Brezee Coffee</p>
           </NextLink>
         </NavbarBrand>
         <ul className="hidden sm:flex gap-4 justify-start ml-2">
