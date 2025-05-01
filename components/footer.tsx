@@ -6,7 +6,7 @@ import { MailIcon, SearchIcon, SendIcon } from './icons';
 
 export default function Footer() {
   return (
-    <div className="px-64 py-8 flex justify-between items-center bg-[#131010]">
+    <div className="px-6 sm:px-16 xl:px-64 py-8 flex justify-between items-center bg-[#131010] flex-col sm:flex-row gap-4">
       {/* left content */}
       <div className="flex flex-col gap-4">
         <h1 className="text-white font-bold text-2xl">
@@ -33,9 +33,9 @@ export default function Footer() {
       </div>
       {/* right content */}
       <div>
-        <p className="text-default-500 text-small">© 2025 Brezee Coffee</p>
-        <p className="text-default-500 text-small">Terms of Service</p>
-        <p className="text-default-500 text-small">Privacy Policy</p>
+        <p className="text-default-500 text-small text-center sm:text-left">© 2025 Brezee Coffee</p>
+        <p className="text-default-500 text-small text-center sm:text-left">Terms of Service</p>
+        <p className="text-default-500 text-small text-center sm:text-left">Privacy Policy</p>
       </div>
     </div>
   );
