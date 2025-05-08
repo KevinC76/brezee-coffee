@@ -6,7 +6,7 @@ import { MailIcon, SearchIcon, SendIcon } from './icons';
 
 export default function Footer() {
   return (
-    <div className="px-6 sm:px-16 xl:px-64 py-8 flex justify-between items-center bg-[#131010] flex-col sm:flex-row gap-4">
+    <div className="px-6 sm:px-16 xl:px-64 py-8 flex justify-between items-center bg-dark_background_color flex-col sm:flex-row gap-4">
       {/* left content */}
       <div className="flex flex-col gap-4">
         <h1 className="text-white font-bold text-2xl">

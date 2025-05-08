@@ -16,9 +16,13 @@ export default function Cards({ image_path, name }: CardProps) {
 
   return (
     <motion.div
-      className="relative w-[250px] h-[250px]"
-      onHoverStart={() => setOverlay(true)}
-      onHoverEnd={() => setOverlay(false)}
+      className="relative w-[150px] h-[150px] sm:w-[250px] sm:h-[250px] flex-shrink-0"
+      onHoverStart={() => {
+        setOverlay(true);
+      }}
+      onHoverEnd={() => {
+        setOverlay(false);
+      }}
     >
       <AnimatePresence>
         {overlay && (

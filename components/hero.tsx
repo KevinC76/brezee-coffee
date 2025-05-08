@@ -6,6 +6,7 @@ export default function Hero() {
   return (
     <>
       <div
+      id='hero'
         className="flex items-center justify-center xl:block w-full min-h-screen bg-cover bg-center relative px-6 sm:px-16 xl:px-64"
         style={{
           backgroundImage: "url('/hero_image.jpg')",

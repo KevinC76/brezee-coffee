@@ -11,7 +11,8 @@ const config = {
     extend: {
       colors: {
         brezee_primary: '#D98324',
-        background_color: '#EFDCAB'
+        background_color: '#EFDCAB',
+        dark_background_color: '#252324',
       },
       fontFamily: {
         sans: ["var(--font-sans)"],
