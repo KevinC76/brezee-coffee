@@ -2,4 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 3px solid #252324;
+  margin: 1em 0;
+  padding: 0;
+}

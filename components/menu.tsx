@@ -113,10 +113,10 @@ export default function Menu() {
   const duplicatedImages = [...images_data, ...images_data];
 
   return (
-    <div className="flex flex-col gap-8 py-16 w-full overflow-hidden bg-background_color" id='menu'>
+    <div className="flex flex-col gap-8 py-16 w-full overflow-hidden bg-dark_background_color" id='menu'>
       <div className="relative flex flex-col gap-8">
         <div className="flex items-center justify-center">
-          <h1 className="text-4xl font-bold text-brezee_primary">Menu</h1>
+          <h1 className="text-4xl sm:text-5xl font-bold text-white">Menu ☕</h1>
         </div>
 
         <motion.div

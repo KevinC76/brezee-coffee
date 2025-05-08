@@ -2,7 +2,7 @@
 import { Input } from '@heroui/input';
 import React from 'react';
 
-import { MailIcon, SearchIcon, SendIcon } from './icons';
+import { MailIcon, SearchIcon, SendIcon } from '../icons';
 
 export default function Footer() {
   return (
@@ -33,9 +33,15 @@ export default function Footer() {
       </div>
       {/* right content */}
       <div>
-        <p className="text-default-500 text-small text-center sm:text-left">© 2025 Brezee Coffee</p>
-        <p className="text-default-500 text-small text-center sm:text-left">Terms of Service</p>
-        <p className="text-default-500 text-small text-center sm:text-left">Privacy Policy</p>
+        <p className="text-default-500 text-small text-center sm:text-left">
+          © 2025 Brezee Coffee
+        </p>
+        <p className="text-default-500 text-small text-center sm:text-left">
+          Terms of Service
+        </p>
+        <p className="text-default-500 text-small text-center sm:text-left">
+          Privacy Policy
+        </p>
       </div>
     </div>
   );

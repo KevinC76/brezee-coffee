@@ -4,8 +4,11 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div className="flex flex-col gap-8 py-16 px-6 sm:px-16 xl:px-72 bg-dark_background_color" id='about'>
-      <div className="text-white flex gap-4 xl:gap-16 items-center justify-center">
+    <div
+      className="flex flex-col gap-8 py-16 px-6 sm:px-16 xl:px-72 bg-background_color"
+      id="about"
+    >
+      <div className="text-dark_background_color flex gap-4 xl:gap-16 items-center justify-center">
         {/* left */}
         <div className="h-full">
           <Image
@@ -29,8 +32,10 @@ export default function About() {
           </p>
         </div>
       </div>
-      <hr />
-      <div className="text-white flex gap-4 xl:gap-16 items-center justify-center">
+      <div className="text-dark_background_color">
+        <hr  />
+      </div>
+      <div className="text-dark_background_color flex gap-4 xl:gap-16 items-center justify-center">
         {/* left */}
         <div className="flex flex-col gap-2 xl:gap-8">
           <h1 className="text-md sm:text-3xl xl:text-5xl font-bold text-brezee_primary">
